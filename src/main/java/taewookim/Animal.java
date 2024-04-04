@@ -87,6 +87,9 @@ public abstract class Animal {
         }
         if(energy<100) {
             eat();
+            if(energy<0) {
+                dead();
+            }
         }else {
             breeding();
         }
