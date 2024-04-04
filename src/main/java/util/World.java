@@ -83,7 +83,7 @@ public class World extends Thread {
     }
 
     public double getDensity() {
-        return ((double) maxanimals)/((double) (animals.size()+addinganimals.size()));
+        return ((double) (animals.size()+addinganimals.size()))/((double) maxanimals);
     }
 
 }
