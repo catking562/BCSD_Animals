@@ -20,7 +20,7 @@ public class Crocodile extends Reptile implements Carnivore {
 
     @Override
     public boolean breedingRandom() {
-        return TRandom.random.nextInt(400)==0;
+        return TRandom.random.nextInt(800)==0;
     }
 
     @Override
