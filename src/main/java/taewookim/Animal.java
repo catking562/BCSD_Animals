@@ -2,6 +2,7 @@ package taewookim;
 
 import taewookim.animalelement.AnimalState;
 import taewookim.animalelement.Gender;
+import taewookim.animalelement.eattype.Carnivore;
 import util.TRandom;
 import util.World;
 
@@ -64,6 +65,14 @@ public abstract class Animal {
                 animal.dead();
                 energy+=animal.energy;
             }
+        }
+    }
+
+    public void hungry() {
+        if(this instanceof Carnivore) {
+            eat();
+        }else if(eatRandom()) {
+            energy = 200;
         }
     }
 

@@ -4,36 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7d45107-c46a-47a6-a166-0540b43ebce4" name="Changes" comment="어쩌다 뭐가 많아졌다...">
-      <change afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/arthropod/crustacean/Crab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/arthropod/crustacean/Shrimp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/fish/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Pig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Rabbit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Wolf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/reptile/Crocodile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/reptile/Dragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/reptile/Snake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/reptile/Turtle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="e7d45107-c46a-47a6-a166-0540b43ebce4" name="Changes" comment="동물들 정리">
+      <change afterPath="$PROJECT_DIR$/src/main/java/taewookim/animalelement/eattype/Carnivore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/AnimalTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/AnimalTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/Arthropod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/Arthropod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/Vertebrate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/Vertebrate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/arthropod/Chelicerate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/arthropod/Crustacean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/arthropod/Crustacean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/arthropod/Hexagonal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/arthropod/Myriapoda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/Algal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/Amphibian.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/Mammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/Mammal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/Reptile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/Reptile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/arthropod/crustacean/Crab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/arthropod/crustacean/Crab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/arthropod/crustacean/Shrimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/arthropod/crustacean/Shrimp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/fish/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/fish/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Chicken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Mouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Pig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Rabbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Rabbit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Wolf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/reptile/Crocodile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/reptile/Crocodile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/reptile/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/reptile/Dragon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/reptile/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/reptile/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/reptile/Turtle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/reptile/Turtle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -99,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712207215599</updated>
       <workItem from="1712207216616" duration="4707000" />
-      <workItem from="1712213379155" duration="2526000" />
+      <workItem from="1712213379155" duration="4770000" />
     </task>
     <task id="LOCAL-00001" summary="월드, 동물, 척추동물, 절지동물 구성">
       <option name="closed" value="true" />
@@ -117,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712211910161</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="동물들 정리">
+      <option name="closed" value="true" />
+      <created>1712215913043</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712215913043</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="월드, 동물, 척추동물, 절지동물 구성" />
     <MESSAGE value="어쩌다 뭐가 많아졌다..." />
-    <option name="LAST_COMMIT_MESSAGE" value="어쩌다 뭐가 많아졌다..." />
+    <MESSAGE value="동물들 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="동물들 정리" />
   </component>
 </project>
