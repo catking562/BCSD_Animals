@@ -13,7 +13,7 @@ public class Dragon extends Reptile implements Carnivore {
     }
 
     public boolean breedingRandom() {
-        return TRandom.random.nextInt(36000)==0;
+        return TRandom.random.nextInt(360000)==0;
     }
 
     @Override
