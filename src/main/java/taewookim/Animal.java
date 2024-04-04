@@ -37,7 +37,7 @@ public abstract class Animal {
         Iterator<Animal> iter = w.getAnimals();
         while(iter.hasNext()) {
             Animal animal = iter.next();
-            if(canBreeding(animal)&&breedingRandom()) {
+            if(canBreeding(animal)&&breedingRandom()&&TRandom.random.nextDouble()>w.getDensity()) {
                 w.addAnimal(type.createAnimal(w));
             }
         }
@@ -83,6 +83,8 @@ public abstract class Animal {
         }
         if(energy<100) {
             eat();
+        }else {
+            breeding();
         }
     }
 
