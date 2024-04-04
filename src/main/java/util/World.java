@@ -1,6 +1,7 @@
 package util;
 
 import taewookim.Animal;
+import taewookim.AnimalTypes;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -12,7 +13,7 @@ public class World extends Thread {
     private boolean isupdating = false;
     private boolean isend = false;
 
-    private Long runsec = 1000L;
+    private int runsec = 1000;
     private final int maxanimals = 5000;
 
     public Iterator<Animal> getAnimals() {
@@ -21,6 +22,11 @@ public class World extends Thread {
 
     public World(int frame) {
         runsec/=frame;
+        for(AnimalTypes at : AnimalTypes.values()) {
+            for(int i = 0; i<20; i++) {
+                addAnimal(at.createAnimal(this));
+            }
+        }
     }
 
     public void addAnimal(Animal animal) {
@@ -51,7 +57,8 @@ public class World extends Thread {
             update();
             Long deltatick = System.currentTimeMillis()-beforetick;
             try {
-                sleep(runsec-deltatick);
+                int st = (int) (runsec-deltatick);
+                sleep(st>0?st:1);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -60,6 +67,14 @@ public class World extends Thread {
 
     public void end() {
         isend = true;
+    }
+
+    public int getAnimalsCount() {
+        return animals.size()+addinganimals.size();
+    }
+
+    public int getAnimalsMax() {
+        return maxanimals;
     }
 
     public double getDensity() {
