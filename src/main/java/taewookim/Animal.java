@@ -76,6 +76,10 @@ public abstract class Animal {
         }
     }
 
+    public void energyUpdate() {
+        energy--;
+    }
+
     public void update() {
         age++;
         if(age>maxAge) {
@@ -86,6 +90,7 @@ public abstract class Animal {
         }else {
             breeding();
         }
+        energyUpdate();
     }
 
     public final int getAge() {

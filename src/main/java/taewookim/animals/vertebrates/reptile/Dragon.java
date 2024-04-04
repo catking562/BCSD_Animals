@@ -4,11 +4,23 @@ import taewookim.Animal;
 import taewookim.AnimalTypes;
 import taewookim.animalelement.eattype.Carnivore;
 import taewookim.animals.vertebrates.Reptile;
+import util.TRandom;
 import util.World;
 
 public class Dragon extends Reptile implements Carnivore {
     public Dragon(World w, AnimalTypes type, int maxAge) {
         super(w, type, maxAge);
+    }
+
+    public boolean breedingRandom() {
+        return TRandom.random.nextInt(6000)==0;
+    }
+
+    @Override
+    public void energyUpdate() {
+        if(TRandom.random.nextInt(10)==0) {
+            super.energyUpdate();
+        }
     }
 
     @Override
