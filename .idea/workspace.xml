@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7d45107-c46a-47a6-a166-0540b43ebce4" name="Changes" comment="드래곤 제외 번식확률 2배 증가">
+    <list default="true" id="e7d45107-c46a-47a6-a166-0540b43ebce4" name="Changes" comment="에너지 없으면 죽음">
+      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/arthropod/crustacean/Crab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/arthropod/crustacean/Crab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/arthropod/crustacean/Shrimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/arthropod/crustacean/Shrimp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/mammal/Wolf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/reptile/Crocodile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/reptile/Crocodile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/reptile/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/animals/vertebrates/reptile/Dragon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,7 @@
       <updated>1712207215599</updated>
       <workItem from="1712207216616" duration="4707000" />
       <workItem from="1712213379155" duration="7259000" />
-      <workItem from="1712228630272" duration="2088000" />
+      <workItem from="1712228630272" duration="2441000" />
     </task>
     <task id="LOCAL-00001" summary="월드, 동물, 척추동물, 절지동물 구성">
       <option name="closed" value="true" />
@@ -196,7 +196,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712230556488</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="드래곤 악어 늑대 너프">
+      <option name="closed" value="true" />
+      <created>1712230725635</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712230725635</updated>
+    </task>
+    <task id="LOCAL-00015" summary="절지류 먼저 밸런스 패치...">
+      <option name="closed" value="true" />
+      <created>1712230804358</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712230804358</updated>
+    </task>
+    <task id="LOCAL-00016" summary="에너지 없으면 죽음">
+      <option name="closed" value="true" />
+      <created>1712230917937</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1712230917938</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +240,9 @@
     <MESSAGE value="같은 종류의 동물을 잡아먹는 문제 해결" />
     <MESSAGE value="드래곤 너프" />
     <MESSAGE value="드래곤 제외 번식확률 2배 증가" />
-    <option name="LAST_COMMIT_MESSAGE" value="드래곤 제외 번식확률 2배 증가" />
+    <MESSAGE value="드래곤 악어 늑대 너프" />
+    <MESSAGE value="절지류 먼저 밸런스 패치..." />
+    <MESSAGE value="에너지 없으면 죽음" />
+    <option name="LAST_COMMIT_MESSAGE" value="에너지 없으면 죽음" />
   </component>
 </project>

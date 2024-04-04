@@ -19,7 +19,7 @@ public class Wolf extends Mammal implements Carnivore {
 
     @Override
     public boolean breedingRandom() {
-        return TRandom.random.nextInt(800)==0;
+        return TRandom.random.nextInt(1600)==0;
     }
 
     @Override
