@@ -26,9 +26,9 @@ public class Application {
             case "animaldata":
                 break;
             case "help":
-                writer.write("stop - 프로그램 정지");
-                writer.write("animalcount - 동물 숫자 계산");
-                writer.write("animaldata - 동물 데이터 계산");
+                writer.write("stop - 프로그램 정지\n");
+                writer.write("animalcount - 동물 숫자 계산\n");
+                writer.write("animaldata - 동물 데이터 계산\n");
                 writer.write("help - 도움말");
                 writer.flush();
                 break;
@@ -37,12 +37,11 @@ public class Application {
 
     public static void main(String[] args) throws Exception {
         w = new World(60);
-        w.run();
+        w.start();
         reader = new BufferedReader(new InputStreamReader(System.in));
         writer = new BufferedWriter(new OutputStreamWriter(System.out));
         while(!isend) {
             String command = reader.readLine();
-            System.out.println(command);
             runCommand(command);
         }
         w.end();

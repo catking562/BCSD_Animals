@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7d45107-c46a-47a6-a166-0540b43ebce4" name="Changes" comment="동물들 특성 정리">
+    <list default="true" id="e7d45107-c46a-47a6-a166-0540b43ebce4" name="Changes" comment="World 구성">
       <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taewookim/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taewookim/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/util/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/World.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,24 +38,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.BCSD_World [:Application.main()].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="BCSD_World.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -74,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712207215599</updated>
       <workItem from="1712207216616" duration="4707000" />
-      <workItem from="1712213379155" duration="5132000" />
+      <workItem from="1712213379155" duration="6660000" />
     </task>
     <task id="LOCAL-00001" summary="월드, 동물, 척추동물, 절지동물 구성">
       <option name="closed" value="true" />
@@ -108,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712218165509</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="World 구성">
+      <option name="closed" value="true" />
+      <created>1712218766879</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712218766879</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +141,7 @@
     <MESSAGE value="어쩌다 뭐가 많아졌다..." />
     <MESSAGE value="동물들 정리" />
     <MESSAGE value="동물들 특성 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="동물들 특성 정리" />
+    <MESSAGE value="World 구성" />
+    <option name="LAST_COMMIT_MESSAGE" value="World 구성" />
   </component>
 </project>
