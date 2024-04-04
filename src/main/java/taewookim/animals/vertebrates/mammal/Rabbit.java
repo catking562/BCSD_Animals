@@ -18,7 +18,7 @@ public class Rabbit extends Mammal {
 
     @Override
     public boolean breedingRandom() {
-        return TRandom.random.nextInt(300)==0;
+        return TRandom.random.nextInt(150)==0;
     }
 
     @Override

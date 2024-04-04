@@ -26,7 +26,7 @@ public abstract class Animal {
     }
 
     public boolean breedingRandom() {
-        return TRandom.random.nextInt(600)==0;
+        return TRandom.random.nextInt(300)==0;
     }
 
     public boolean canBreeding(Animal animal) {

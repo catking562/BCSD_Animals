@@ -18,7 +18,7 @@ public class Crab extends Crustacean {
 
     @Override
     public boolean breedingRandom() {
-        return TRandom.random.nextInt(200)==0;
+        return TRandom.random.nextInt(100)==0;
     }
 
     @Override
