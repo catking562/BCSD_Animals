@@ -61,7 +61,7 @@ public abstract class Animal {
         Iterator<Animal> iter = w.getAnimals();
         while(iter.hasNext()) {
             Animal animal = iter.next();
-            if(canEat(animal)&&eatRandom()) {
+            if(animal.type!=type&&canEat(animal)&&eatRandom()) {
                 animal.dead();
                 energy+=animal.energy;
             }
