@@ -29,7 +29,7 @@ public abstract class Animal {
     }
 
     public boolean canBreeding(Animal animal) {
-        return animal.type==this.type&&animal.gender!=this.gender;
+        return animal.type==this.type&&(animal.gender!=this.gender||gender==Gender.All);
     }
 
     public void breeding() {
