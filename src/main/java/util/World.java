@@ -42,10 +42,15 @@ public class World extends Thread {
 
     public void update() {
         isupdating = true;
+        ArrayList<Animal> removingAnimal = new ArrayList<>();
         for(Animal animal : animals) {
             animal.update();
+            if(animal.isDead()) {
+                removingAnimal.add(animal);
+            }
         }
         isupdating = false;
+        animals.removeAll(removingAnimal);
         animals.addAll(addinganimals);
         addinganimals.clear();
     }

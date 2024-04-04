@@ -2,7 +2,7 @@ package taewookim;
 
 import taewookim.animals.arthropod.crustacean.Crab;
 import taewookim.animals.arthropod.crustacean.Shrimp;
-import taewookim.animals.vertebrates.Fish;
+import taewookim.animals.vertebrates.fish.Fish;
 import taewookim.animals.vertebrates.mammal.*;
 import taewookim.animals.vertebrates.reptile.Crocodile;
 import taewookim.animals.vertebrates.reptile.Dragon;
